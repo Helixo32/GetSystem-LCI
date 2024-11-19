@@ -1,7 +1,7 @@
 
-# GetSystem-CLI
+# GetSystem-LCI
 
-**GetSystem-CLI** is a PowerShell-based privilege escalation technique that allows you to escalate privileges from an Administrator account to `NT AUTHORITY\SYSTEM`. This is achieved by abusing the `Uninstall` scheduled task located under the `\Microsoft\Windows\LanguageComponentsInstaller` path, modifying its action, and executing it.
+**GetSystem-LCI** is a PowerShell-based privilege escalation technique that allows you to escalate privileges from an Administrator account to `NT AUTHORITY\SYSTEM`. This is achieved by abusing the `Uninstall` scheduled task located under the `\Microsoft\Windows\LanguageComponentsInstaller` path, modifying its action, and executing it.
 
 The `Uninstall` scheduled task is originally intended to assist with the uninstallation of language components in Windows, ensuring system language packages are managed effectively.
 
