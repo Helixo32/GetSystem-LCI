@@ -31,6 +31,9 @@ GetSystem-LCI -BinaryPath "C:\path\to\your\binary.exe"
 ### Note
 For reasons not fully understood (and because I'm too lazy to figure out why), the task must be executed manually through the graphical interface of the Task Scheduler. The `Start-ScheduledTask` command does not successfully launch the task.
 
+The tests were successfully performed on :
+- Windows 10
+- Windows Server 2022
 ---
 
 ## How It Works
