@@ -1,6 +1,6 @@
 function GetSystem-LCI {
     param (
-        [string]$BinaryPath # Path of the binary to execute
+        [string]$BinaryPath
     )
 
     # Define the name and path of the task
